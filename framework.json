@@ -1,0 +1,7 @@
+{
+  "name": "founder-os",
+  "version": "1.0.0",
+  "project_schema": 1,
+  "python": ">=3.11",
+  "runtime": ["framework.json", "AGENTS.md", "core", "workflows", "standards", "project-types", "templates", "schemas", ".agents/skills", "scripts/founder.py", "docs/usage.md"]
+}

@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Founder state contract v1",
+  "type": "object",
+  "required": ["schema_version", "phase", "status", "updated_at", "tasks", "risks", "checks", "next_action"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "phase": {"enum": ["discovery", "validation", "strategy", "definition", "planning", "architecture", "design", "implementation", "testing", "review", "deployment", "launch", "operation", "optimization", "scaling", "archive"]},
+    "status": {"enum": ["active", "blocked", "complete", "archived"]},
+    "updated_at": {"type": "string", "format": "date-time"},
+    "tasks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "status"],
+        "properties": {
+          "id": {"type": "string", "minLength": 1},
+          "title": {"type": "string", "minLength": 1},
+          "status": {"enum": ["todo", "doing", "done", "blocked"]}
+        }
+      }
+    },
+    "risks": {"type": "array"},
+    "checks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["command", "result", "at"],
+        "properties": {
+          "command": {"type": "string", "minLength": 1},
+          "result": {"enum": ["passed", "failed", "not-run"]},
+          "at": {"type": "string", "minLength": 1}
+        }
+      }
+    },
+    "next_action": {"type": "string", "minLength": 1}
+  }
+}

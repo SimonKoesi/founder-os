@@ -1,0 +1,387 @@
+[
+  {
+    "id": "discovery",
+    "keywords": [
+      "idee",
+      "idea",
+      "discovery",
+      "bestand",
+      "übernahme"
+    ],
+    "phases": [
+      "discovery"
+    ],
+    "skills": [
+      ".agents/skills/founder-board/SKILL.md"
+    ],
+    "standards": [
+      "standards/simplicity.md",
+      "standards/evidence.md"
+    ],
+    "workflows": [
+      "workflows/discovery.md"
+    ]
+  },
+  {
+    "id": "research",
+    "keywords": [
+      "market",
+      "markt",
+      "wettbewerb",
+      "competitor",
+      "validier",
+      "validate",
+      "nachfrage",
+      "buyer"
+    ],
+    "phases": [
+      "validation"
+    ],
+    "skills": [
+      ".agents/skills/founder-competitors/SKILL.md",
+      ".agents/skills/founder-consumer/SKILL.md"
+    ],
+    "standards": [
+      "standards/evidence.md"
+    ],
+    "workflows": [
+      "workflows/validation.md"
+    ]
+  },
+  {
+    "id": "strategy",
+    "keywords": [
+      "strategie",
+      "strategy",
+      "preis",
+      "pricing",
+      "finanz",
+      "funding",
+      "angebot",
+      "offer",
+      "business plan"
+    ],
+    "phases": [
+      "strategy"
+    ],
+    "skills": [
+      ".agents/skills/founder-pricing/SKILL.md",
+      ".agents/skills/founder-offer/SKILL.md",
+      ".agents/skills/founder-cfo/SKILL.md",
+      ".agents/skills/founder-plan/SKILL.md"
+    ],
+    "standards": [
+      "standards/evidence.md"
+    ],
+    "workflows": [
+      "workflows/strategy.md"
+    ]
+  },
+  {
+    "id": "product",
+    "keywords": [
+      "anforderung",
+      "requirement",
+      "produkt",
+      "product",
+      "saas",
+      "definition"
+    ],
+    "phases": [
+      "definition"
+    ],
+    "skills": [
+      ".agents/skills/founder-product/SKILL.md"
+    ],
+    "standards": [
+      "standards/quality.md"
+    ],
+    "workflows": [
+      "workflows/definition.md"
+    ]
+  },
+  {
+    "id": "planning",
+    "keywords": [
+      "planen",
+      "planning",
+      "roadmap"
+    ],
+    "phases": [
+      "planning"
+    ],
+    "skills": [
+      ".agents/skills/founder-product/SKILL.md"
+    ],
+    "standards": [
+      "standards/simplicity.md"
+    ],
+    "workflows": [
+      "workflows/planning.md"
+    ]
+  },
+  {
+    "id": "architecture",
+    "keywords": [
+      "architektur",
+      "architecture",
+      "schnittstelle",
+      "database"
+    ],
+    "phases": [
+      "architecture"
+    ],
+    "skills": [
+      ".agents/skills/founder-build/SKILL.md"
+    ],
+    "standards": [
+      "standards/security.md",
+      "standards/simplicity.md"
+    ],
+    "workflows": [
+      "workflows/architecture.md"
+    ]
+  },
+  {
+    "id": "design",
+    "keywords": [
+      "design",
+      "ui",
+      "ux",
+      "chart",
+      "diagramm",
+      "dashboard"
+    ],
+    "phases": [
+      "design"
+    ],
+    "skills": [
+      ".agents/skills/founder-charts/SKILL.md"
+    ],
+    "standards": [
+      "standards/ui.md"
+    ],
+    "workflows": [
+      "workflows/design.md"
+    ]
+  },
+  {
+    "id": "build",
+    "keywords": [
+      "implement",
+      "bauen",
+      "entwickeln",
+      "code",
+      "automation",
+      "automatisierung"
+    ],
+    "phases": [
+      "implementation"
+    ],
+    "skills": [
+      ".agents/skills/founder-build/SKILL.md"
+    ],
+    "standards": [
+      "standards/quality.md",
+      "standards/security.md",
+      "standards/simplicity.md"
+    ],
+    "workflows": [
+      "workflows/implementation.md"
+    ]
+  },
+  {
+    "id": "test",
+    "keywords": [
+      "test",
+      "prüfen",
+      "testing"
+    ],
+    "phases": [
+      "testing"
+    ],
+    "skills": [
+      ".agents/skills/founder-build/SKILL.md"
+    ],
+    "standards": [
+      "standards/quality.md"
+    ],
+    "workflows": [
+      "workflows/testing.md"
+    ]
+  },
+  {
+    "id": "review",
+    "keywords": [
+      "review",
+      "audit",
+      "diff"
+    ],
+    "phases": [
+      "review"
+    ],
+    "skills": [
+      ".agents/skills/founder-build/SKILL.md"
+    ],
+    "standards": [
+      "standards/quality.md",
+      "standards/security.md"
+    ],
+    "workflows": [
+      "workflows/review.md"
+    ]
+  },
+  {
+    "id": "deploy",
+    "keywords": [
+      "deploy",
+      "release",
+      "veröffentlich",
+      "publish"
+    ],
+    "phases": [
+      "deployment"
+    ],
+    "skills": [
+      ".agents/skills/founder-release/SKILL.md"
+    ],
+    "standards": [
+      "standards/security.md",
+      "standards/quality.md"
+    ],
+    "workflows": [
+      "workflows/deployment.md"
+    ]
+  },
+  {
+    "id": "launch",
+    "keywords": [
+      "launch",
+      "marketing",
+      "vertrieb",
+      "sales",
+      "brand",
+      "marke"
+    ],
+    "phases": [
+      "launch"
+    ],
+    "skills": [
+      ".agents/skills/founder-marketing/SKILL.md",
+      ".agents/skills/founder-brand/SKILL.md",
+      ".agents/skills/founder-launch/SKILL.md"
+    ],
+    "standards": [
+      "standards/evidence.md"
+    ],
+    "workflows": [
+      "workflows/launch.md"
+    ]
+  },
+  {
+    "id": "operate",
+    "keywords": [
+      "betrieb",
+      "operation",
+      "wartung",
+      "incident",
+      "support"
+    ],
+    "phases": [
+      "operation"
+    ],
+    "skills": [
+      ".agents/skills/founder-ops/SKILL.md",
+      ".agents/skills/founder-release/SKILL.md"
+    ],
+    "standards": [
+      "standards/security.md"
+    ],
+    "workflows": [
+      "workflows/operation.md"
+    ]
+  },
+  {
+    "id": "optimize",
+    "keywords": [
+      "optimier",
+      "scal",
+      "skalier",
+      "performance"
+    ],
+    "phases": [
+      "optimization",
+      "scaling"
+    ],
+    "skills": [
+      ".agents/skills/founder-cfo/SKILL.md",
+      ".agents/skills/founder-build/SKILL.md"
+    ],
+    "standards": [
+      "standards/quality.md",
+      "standards/evidence.md"
+    ],
+    "workflows": [
+      "workflows/optimization.md"
+    ]
+  },
+  {
+    "id": "archive",
+    "keywords": [
+      "archive",
+      "archiv",
+      "stilllegen"
+    ],
+    "phases": [
+      "archive"
+    ],
+    "skills": [
+      ".agents/skills/founder-release/SKILL.md"
+    ],
+    "standards": [
+      "standards/security.md"
+    ],
+    "workflows": [
+      "workflows/archive.md"
+    ]
+  },
+  {
+    "id": "bugfix",
+    "keywords": [
+      "bug",
+      "fehler",
+      "fix",
+      "defect"
+    ],
+    "phases": [],
+    "skills": [
+      ".agents/skills/founder-build/SKILL.md"
+    ],
+    "standards": [
+      "standards/quality.md",
+      "standards/simplicity.md"
+    ],
+    "workflows": [
+      "workflows/bugfix.md"
+    ]
+  },
+  {
+    "id": "improve",
+    "keywords": [
+      "framework",
+      "verbesserung",
+      "improve",
+      "update"
+    ],
+    "phases": [],
+    "skills": [
+      ".agents/skills/founder-framework/SKILL.md"
+    ],
+    "standards": [
+      "standards/quality.md"
+    ],
+    "workflows": [
+      "workflows/improvement.md"
+    ]
+  }
+]

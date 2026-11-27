@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+.local/
+.founder/local.json
+.founder/history/
+.founder-init.lock/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.tmp
+.DS_Store

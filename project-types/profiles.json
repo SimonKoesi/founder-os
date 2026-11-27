@@ -1,0 +1,7 @@
+{
+  "idea": {"phase":"discovery", "focus":["problem", "audience", "real-world experiment"], "checks":["evidence provenance", "success threshold before experiment"]},
+  "saas": {"phase":"definition", "focus":["tenant model", "subscription", "data ownership", "support"], "checks":["tenant isolation", "billing idempotency", "restore", "rollback"]},
+  "automation": {"phase":"definition", "focus":["trigger", "inputs", "outputs", "permissions", "failure recovery"], "checks":["dry run", "duplicate trigger", "partial failure", "retry"]},
+  "software": {"phase":"discovery", "focus":["existing stack", "users", "requirements", "interfaces"], "checks":["affected tests", "migration safety", "release health"]},
+  "business": {"phase":"discovery", "focus":["offer", "market", "cash", "operations", "funding"], "checks":["real quotes", "real demand", "capacity", "jurisdiction"]}
+}

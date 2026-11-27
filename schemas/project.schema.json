@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Founder project contract v1",
+  "type": "object",
+  "required": ["schema_version", "name", "type", "size", "stack", "framework"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "name": {"type": "string", "minLength": 1},
+    "type": {"enum": ["idea", "saas", "automation", "software", "business"]},
+    "size": {"enum": ["small", "standard", "large"]},
+    "stack": {"type": "array", "items": {"type": "string"}},
+    "framework": {
+      "type": "object",
+      "required": ["version", "sha256"],
+      "properties": {
+        "version": {"type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"},
+        "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+      }
+    }
+  }
+}
