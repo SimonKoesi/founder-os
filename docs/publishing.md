@@ -1,5 +1,10 @@
 # Private GitHub publication
 
+Published and confirmed private: https://github.com/SimonKoesi/founder-os.
+All four Windows/Ubuntu Python 3.11/3.13 jobs passed after the Windows path-fixture
+correction. Exact CI revision and run URL are recorded in `publication.json`.
+The commands below are recovery instructions, not unfinished publication work.
+
 Requested name: `founder-os`. Description:
 `A modular, AI-native Founder Operating System for building, managing and scaling projects with Codex.`
 

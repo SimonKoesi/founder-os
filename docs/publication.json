@@ -1,4 +1,32 @@
 {
-  "status": "pending",
-  "requested_private": true
+  "status": "published",
+  "repository": "https://github.com/SimonKoesi/founder-os",
+  "is_private": true,
+  "description": "A modular, AI-native Founder Operating System for building, managing and scaling projects with Codex.",
+  "rights_confirmed_by_owner": "2026-11-27",
+  "ci": {
+    "url": "https://github.com/SimonKoesi/founder-os/actions/runs/45976530645",
+    "head_sha": "addbe1e4b0e6f05cc0b7a73a7fd1a1bd9f04c8ab",
+    "conclusion": "success",
+    "jobs": [
+      {
+        "name": "validate (ubuntu-latest, 3.13)",
+        "conclusion": "success"
+      },
+      {
+        "name": "validate (ubuntu-latest, 3.11)",
+        "conclusion": "success"
+      },
+      {
+        "name": "validate (windows-latest, 3.13)",
+        "conclusion": "success"
+      },
+      {
+        "name": "validate (windows-latest, 3.11)",
+        "conclusion": "success"
+      }
+    ]
+  },
+  "initial_ci_issue": "Windows 8.3 path alias comparison in test fixture; corrected by resolving temporary base path.",
+  "local_results": "validation-results.json"
 }
