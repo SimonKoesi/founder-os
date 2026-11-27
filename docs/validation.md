@@ -30,8 +30,11 @@ PyYAML is absent. No dependency was installed. The framework's own validator che
 the deliberately simple supported frontmatter and paths for all 16 skills. This
 does not replace an interactive Codex discovery smoke test, which remains unrun.
 
-GitHub Actions is configured for Windows and Ubuntu, Python 3.11 and 3.13; remote CI
-has not run. Live agents, production side effects and actual UI interaction have
+GitHub Actions runs Windows and Ubuntu with Python 3.11 and 3.13; confirmed run
+results are recorded in publication.json. The initial Windows run exposed a test
+path comparison against a Windows 8.3 temporary path alias; resolving the fixture
+path fixes the assertion without changing runtime behavior. Live agents,
+production side effects and actual UI interaction have
 not run. Secret scanning is heuristic; rights review is documented, not certified.
 Project update performs compatible metadata rebinding only, not arbitrary major
 schema migrations or rewriting project code. Unknown schemas fail without changes.

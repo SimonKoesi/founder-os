@@ -32,4 +32,4 @@ open an initialized project, select founder-context, verify status and route.
 
 Local tools default to Python 3.11+ for the new framework; upstream tools originally
 targeted Python 3.8+. No dependencies are installed. GitHub Actions prepares a
-Windows/Ubuntu 3.11/3.13 matrix; only the local Windows interpreter has run here.
+Windows/Ubuntu 3.11/3.13 matrix; remote execution evidence is in publication.json.

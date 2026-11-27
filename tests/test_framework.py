@@ -18,7 +18,7 @@ spec.loader.exec_module(fw)
 class Framework(unittest.TestCase):
     def setUp(self):
         self.tmp = tempfile.TemporaryDirectory()
-        self.base = Path(self.tmp.name)
+        self.base = Path(self.tmp.name).resolve()
         self.project = self.base / 'project with spaces'
 
     def tearDown(self):
